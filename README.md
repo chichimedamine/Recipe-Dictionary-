@@ -11,10 +11,7 @@ The Recipe Dictionary app allows users to search for recipes by name or ingredie
 - **Search Recipes**: Users can search recipes by name or ingredient.
 - **View Recipe Details**: Detailed view of recipes including ingredients, instructions, and cooking time.
 - **Favorites**: Users can add recipes to their favorites for quick access.
-- **Screenshots**: 
-  - ![Search Screen](screenshots/search_screen.png)
-  - ![Recipe Detail Screen](screenshots/recipe_detail_screen.png)
-  - ![Favorites Screen](screenshots/favorites_screen.png)
+
 
 ## Technical Details
 
