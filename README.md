@@ -1,16 +1,32 @@
-# recipe_dictionary
+# Recipe Dictionary
 
-A new Flutter project.
+A Flutter application for searching and viewing recipes.
 
-## Getting Started
+## Description
 
-This project is a starting point for a Flutter application.
+The Recipe Dictionary app allows users to search for recipes by name or ingredient, view detailed recipe information, and save their favorite recipes for easy access.
 
-A few resources to get you started if this is your first Flutter project:
+## Features
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- **Search Recipes**: Users can search recipes by name or ingredient.
+- **View Recipe Details**: Detailed view of recipes including ingredients, instructions, and cooking time.
+- **Favorites**: Users can add recipes to their favorites for quick access.
+- **Screenshots**: 
+  - ![Search Screen](screenshots/search_screen.png)
+  - ![Recipe Detail Screen](screenshots/recipe_detail_screen.png)
+  - ![Favorites Screen](screenshots/favorites_screen.png)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Technical Details
+
+- **Framework**: Flutter
+- **State Management**: Bloc pattern is used for managing state across the application.
+- **Dependencies**: 
+  - `flutter_bloc` for state management
+  - `shared_preferences` for storing user preferences
+  - `cached_network_image` for displaying images from the network efficiently
+
+## Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/chichimedamine/Recipe-Dictionary-.git
